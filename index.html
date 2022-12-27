@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book store Catalogue</title>
+</head>
+<style>
+body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headingsContainer{
+    text-align: center;
+}
+
+.headingsContainer p{
+    color: gray;
+}
+.mainContainer{
+    padding: 16px;
+}
+
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+    float: right;
+    color: whitesmoke;
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    color: rgb(74, 146, 235);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+
+  .register{
+    color: white;
+    text-align: center;
+  }
+  
+  .register a{
+    color: rgb(74, 146, 235);
+  }
+  
+  .register a:link{
+    text-decoration: none;
+  }
+
+  /* Media queries for the responsiveness of the page */
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  }
+  table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+* {
+  box-sizing: border-box;
+}
+</style>
+<body>
+    <h1>Welcom to Book Store</h1>
+    <form action="">
+        <div class="headingsContainer">
+            <h3>Book Catalogue </h3>
+            <p>Grab Your favourite Book </p>
+        </div>
+        <center>
+            <table>
+                <tr>
+                  <th>Boook Name</th>
+                  <th>Author</th>
+                  <th>Price</th>
+                </tr>
+                <tr>
+                 <td>A Better India: A Better World</td>
+                 <td>Narayana Murthy</td>
+                 <td>350Rs.</td>
+                </tr>
+                <tr>
+                    <td>A Passage to India</td>
+                    <td>E.M. Foster</td>
+                    <td>300Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>A Revenue Stamp</td>
+                    <td>Amrita Pritam</td>
+                    <td>450Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>A Suitable Boy</td>
+                    <td>Vikram Seth</td>
+                    <td>550Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>A Tale of Two Cities</td>
+                    <td>Charles Darwin</td>
+                    <td>380Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>A Week with Gandhi</td>
+                    <td>Louis Fisher</td>
+                    <td>250Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>A Woman's Life</td>
+                    <td>Guy de Maupassant</td>
+                    <td>590Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>Aadhe Adhure</td>
+                    <td>Mohan Rakesh</td>
+                    <td>650Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>Adventures of Sherlock Holmes</td>
+                    <td>Arthur Conan Doyle</td>
+                    <td>350Rs.</td>
+                   </tr>
+                   <tr>
+                    <td>Adventures of Tom Sawyer</td>
+                    <td>Mark Twain</td>
+                    <td>450Rs.</td>
+                   </tr>
+              </table>
+        </center>
+
+    </form>
+</body>
+</html>
